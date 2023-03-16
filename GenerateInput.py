@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import os
 
-def input_main(basin):
+def main(basin):
     # Functionality to allow multi-processing
 #%% Set up
 
@@ -17,7 +17,7 @@ def input_main(basin):
     # basin = '100A'
     # for basin in subbasins:
     
-    output_path = os.path.join("D:\WATER_FILES\inputs\BaseV4_2011aULC_inputs",basin)
+    output_path = os.path.join(r"D:\WATER_FILES\inputs\BaseV4_2011aULC_inputs",basin)
     if not os.path.exists(output_path):
         os.mkdir(output_path)
     else:

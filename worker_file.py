@@ -6,7 +6,7 @@ Created on Wed Jan 18 11:36:42 2023
 """
 import os
 import sys
-sys.path.append(r'D:\waterpy\waterpy')
+sys.path.append(r'D:\GitHub\Codes\waterpy\waterpy')
 from main import waterpy
 
 def main(input_path,lu):
